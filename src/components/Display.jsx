@@ -28,7 +28,7 @@ const Display = () => {
             fetchTrailer(selectedMovie.movie.title);
             setImageUrl(selectedMovie.movie.posterPath);
         }
-    }, [id, movieDetails]); 
+    }, [id, movieDetails]); // fetching the trailer using YouTube API
 
     const selectedMovie = movieDetails.find((movie) => movie.movie.id === parseInt(id));
 
