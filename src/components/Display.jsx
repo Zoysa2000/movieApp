@@ -28,7 +28,7 @@ const Display = () => {
             fetchTrailer(selectedMovie.movie.title);
             setImageUrl(selectedMovie.movie.posterPath);
         }
-    }, [id, movieDetails]);  // Dependency on `id` and `movieDetails`
+    }, [id, movieDetails]); 
 
     const selectedMovie = movieDetails.find((movie) => movie.movie.id === parseInt(id));
 
