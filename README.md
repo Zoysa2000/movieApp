@@ -1,11 +1,13 @@
-# React + Vite
+# **Movie App - React.js & Tailwind CSS**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic Movie App built with React.js and Tailwind CSS, integrating the TMDb API for fetching real-time movie data, including trending movies, ratings, descriptions, and the YouTube API for displaying trailers of selected movies.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fetch real-time movie data from the TMDb API
+- Display trending movies, ratings, and descriptions
+- Watch trailers via the YouTube API
+- Responsive UI built with Tailwind CSS
+  
 ![Screenshot (1062)](https://github.com/user-attachments/assets/9c941072-f721-4f4d-a601-04e0766b6604)
 ![Screenshot (1054)](https://github.com/user-attachments/assets/05c7a957-61a9-4856-b9ee-dbaffef26b33)
 ![Screenshot (1055)](https://github.com/user-attachments/assets/81e30789-a936-4e6a-8f08-c5259eaf2cae)
